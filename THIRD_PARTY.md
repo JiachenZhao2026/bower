@@ -6,7 +6,8 @@ The FEIT Hackathon Festival rules require every submission to list all third-par
 
 | Name | Use | Licence |
 |---|---|---|
-| Qwen2.5-7B-Instruct / Qwen2.5-3B-Instruct | Job-card extraction and draft wording | Apache-2.0 |
+| Qwen2.5-7B-Instruct | Job-card extraction and draft wording | Apache-2.0 |
+| Qwen2.5-1.5B-Instruct | Fallback on low-spec laptops | Apache-2.0 |
 | nomic-embed-text | Similar-job search (embeddings) | Apache-2.0 |
 | Ollama | Local model runtime (cloud features disabled) | MIT |
 
@@ -16,7 +17,9 @@ The FEIT Hackathon Festival rules require every submission to list all third-par
 |---|---|---|
 | FastAPI | Web server | MIT |
 | Jinja2 | HTML templates | BSD-3-Clause |
-| HTMX | Front-end interactivity (vendored) | BSD-2-Clause (Zero-Clause since 2.x) |
+| HTMX | Front-end interactivity (vendored) | 0BSD (htmx 2.x) |
+| SQLite | Local database | Public domain |
+| Python 3.12 | Language and runtime | PSF License |
 | NumPy | Vector maths and statistics | BSD-3-Clause |
 | httpx | Co-op fan-out requests | BSD-3-Clause |
 | psutil | Egress monitor | BSD-3-Clause |
@@ -25,7 +28,7 @@ The FEIT Hackathon Festival rules require every submission to list all third-par
 
 | Name | Use | Licence |
 |---|---|---|
-| Space Grotesk, DM Sans (Google Fonts) | Project page typography | SIL Open Font License 1.1 |
+| Space Grotesk, DM Sans, JetBrains Mono (Google Fonts) | Project page and slides typography | SIL Open Font License 1.1 |
 | shields.io badges | README badges | CC0 (service) |
 
 ## Data
@@ -41,4 +44,5 @@ All demo data (shops, jobs, prices, messages, ABNs) is **synthetic** and generat
 
 ## Purchases
 
-None so far. Any hardware bought for the demo (for example, a travel router for an offline LAN) will be listed here.
+- Claude Code subscription (Anthropic): used by the team as a coding assistant only.
+- Any hardware bought for the demo (for example, a travel router for an offline local network) will be listed here.

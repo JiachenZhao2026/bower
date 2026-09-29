@@ -20,6 +20,7 @@ models/
 *.safetensors
 
 # OS / editor
+.claude/
 .DS_Store
 .idea/
 .vscode/
