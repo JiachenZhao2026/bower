@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Local data & secrets (never commit real business data)
+data/*.db
+data/*.sqlite
+*.db-journal
+.env
+.env.*
+secrets/
+
+# Models & large files
+models/
+*.gguf
+*.safetensors
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
